@@ -6,10 +6,14 @@
 
 body {
     background-color: blanchedalmond;
-}
-
-h1{
     font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+.alert{
+    
     text-align: center;
     border-radius: 20px;
     border: 1px solid darkred;
