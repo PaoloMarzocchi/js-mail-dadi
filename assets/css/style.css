@@ -8,14 +8,58 @@ body {
     background-color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
 }
-.container{
-    width:80%;
+
+.container {
+    width: 80%;
     margin: 0 auto;
-}
-.alert{
-    
     text-align: center;
+}
+
+.alert {
     border-radius: 20px;
     border: 1px solid darkred;
     margin: 3rem;
+}
+
+.title_game {
+    text-align: center;
+    background-color: darkred;
+    color: blanchedalmond;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+button {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: rgb(4, 4, 43);
+    color: blanchedalmond;
+}
+
+.winner {
+    margin: 1rem 0;
+    
+}
+
+.dice_roll {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.result {
+
+    h4 {
+        
+        border-radius: 10px;
+        border: 1px solid darkred;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+    }
+
+    >div {
+        font-weight: bolder;
+        font-size: larger;
+    }
 }
